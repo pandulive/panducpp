@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Karthin"
+echo "1"
+a = 2;
+echo "Karthik"
