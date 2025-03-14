@@ -100,22 +100,42 @@ C++17 includes a set of **reserved keywords** that have specific meanings and ca
 
 ## 🔹 Example Usage
 
-```c++
-#include <iostream>
-using namespace std;
+    ```c++
+    #include <iostream>
+    using namespace std;
 
-int main() {
-    constexpr int x = 10; // Using constexpr keyword
-    static_assert(x > 0, "x must be positive"); // Using static_assert
+    int main() {
+        constexpr int x = 10; // Using constexpr keyword
+        static_assert(x > 0, "x must be positive"); // Using static_assert
 
-    cout << "Value of x: " << x << endl;
-    return 0;
-}
+        cout << "Value of x: " << x << endl;
+        return 0;
+    }
 
-constexpr in C++: Purpose & Usage
+    constexpr in C++: Purpose & Usage
 
-The constexpr keyword in C++ specifies that a variable, function, or object must be evaluated at compile-time. It helps in optimization and performance improvements by ensuring that expressions are computed before runtime.
-```
+    The constexpr keyword in C++ specifies that a variable, function, 
+    or object must be evaluated at compile-time. It helps in optimization and performance improvements by ensuring that expressions are computed before runtime.
+    ```
 
 This file lists **all C++17 keywords** and their descriptions. Use this as a **quick reference** for C++ programming!
+
+## 1. C++ Identifiers
+
+Identifiers are the unique names given to variables, classes, functions, or other entities by the programmer. For example
+
+    ```cpp
+    int fruit;
+    double bankBalance;
+    ```
+Here, fruit and bankBalance are identifiers.
+
+### Rules for naming identifiers
+
+    - Identifiers can be composed of letters, digits, and the underscore character.
+    - It has no limit on name length.
+    - It must begin with either a letter or an underscore.
+    - It is case-sensitive.
+    - We cannot use keywords as identifiers.
+
 

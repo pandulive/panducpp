@@ -5,7 +5,7 @@ CXX = g++
 CXXFLAGS = -Wall -std=c++17
 
 # Target executable name
-TARGET = program
+TARGET = main
 
 # Source file
 SRC = main.cpp
