@@ -6,7 +6,6 @@ This determines the type and size of data associated with variables.
 ## C++ Fundamental Data Types
 The table below shows the fundamental data types, their meaning, and their sizes (in bytes):
 
-# C++ Data Types
 
 | Data Type  | Meaning              | Size (in Bytes) |
 |------------|----------------------|-----------------|
