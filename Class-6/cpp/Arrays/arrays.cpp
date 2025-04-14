@@ -11,9 +11,14 @@ int main() {
 
   //  Printing array elements
   // using range based for loop
-  for (int n : numbers) {
+  
+  for (int n : numbers) { // Calling the values directly
     cout << n << "  ";
   }
+
+  // for (int &n : numbers) { // Calling the array memory address
+  //   cout << n << "  ";
+  // }
 
   cout << "\nThe numbers are: ";
 

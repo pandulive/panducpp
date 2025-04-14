@@ -76,7 +76,7 @@ Practice : Example 1: Displaying Array Elements ( arrays.cpp)
 
 Practice : Example 2: Take Inputs from User and Store Them in an Array (arrays.cpp)
 
-Understanings : C++ Ranged for Loop
+Understanings : C++ Ranged for Loop (This we use in STL for counting the data stored)
 What if C++ Array Out of Bounds access happened.
 Practice :  Example 3 : range.cpp
 
