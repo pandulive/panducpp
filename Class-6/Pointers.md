@@ -76,7 +76,32 @@ ptr = &arr[0];
 ```
 
 Practice : Pointers and Arrays : pa.cpp
+Understand Below: 
+## Core Pointer Concepts
+### 1. Basic Pointers
+    Declaring, assigning, and dereferencing
+    Pointer to int, float, char, etc.
 
+### 2. Pointer Arithmetic
+    Increment, decrement, difference
+    Working with arrays
 
+### 3. Pointers and Functions
+    Passing by pointer
+    Returning pointer from function
+
+### 4. Const with Pointers
+    `const int*` , `int* const` , `const int* const` 
+
+### 5. Dynamic Memory Allocation
+    new and delete
+    Arrays with new[] and delete[]
+    nullptr and best practices
+
+### 6. Dangling & Wild Pointers
+    Common mistakes and how to avoid
+
+    
+For Advanced Topic: Refer the Memory Topic
 
 
