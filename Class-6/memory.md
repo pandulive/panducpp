@@ -27,3 +27,5 @@ b. Shared Pointers: shared.cpp
 c. Weak Pointers: weak.cpp
 If two objects hold shared_ptr to each other (a circular reference), their reference count never drops to 0, and memory is never freed. weak_ptr breaks this cycle.
 
+More into deep: 
+
